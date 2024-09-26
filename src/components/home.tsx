@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "./navbar";
 import HeroSection from "./heroSection";
-import ParallaxGalaxy from "./parallaxGalaxy";
+// import ParallaxGalaxy from "./parallaxGalaxy";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -13,7 +13,7 @@ const Home = () => {
           <HeroSection />
         </div>
       </div>
-      <ParallaxGalaxy>
+      {/* <ParallaxGalaxy>
         <div className="flex min-h-screen flex-col items-center justify-center space-y-10">
           <h1 className="text-6xl font-bold text-white">
             Welcome to the Galaxy
@@ -26,7 +26,7 @@ const Home = () => {
             Learn More
           </button>
         </div>
-      </ParallaxGalaxy>
+      </ParallaxGalaxy> */}
     </main>
   );
 };

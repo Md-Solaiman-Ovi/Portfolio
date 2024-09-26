@@ -16,6 +16,7 @@ const Social = () => {
       {socials.map((item, index) => {
         return (
           <Link
+            target="_blank"
             key={index}
             to={item.path}
             className="hove:transation-all flex h-9 w-9 items-center justify-center rounded-full border border-teal-500 text-base text-teal-500 duration-500 hover:bg-teal-500 hover:text-white"
