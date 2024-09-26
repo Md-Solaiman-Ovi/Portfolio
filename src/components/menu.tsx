@@ -1,11 +1,10 @@
-import React from "react";
 import { Link, useLocation } from "react-router-dom";
+
 const links = [
   {
     name: "Home",
     path: "/",
   },
-
   {
     name: "About",
     path: "/about",

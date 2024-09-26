@@ -7,16 +7,16 @@ const Photo = () => {
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          transition: { delay: 1, duration: 0.4, ease: "easeIn" },
+          transition: { delay: 0.1, duration: 1, ease: "easeIn" },
         }}
       >
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 1, duration: 0.4, ease: "easeInOut" },
+            transition: { delay: 0.5, duration: 1, ease: "easeInOut" },
           }}
-          className="absolute size-[300px] mix-blend-darken dark:mix-blend-lighten md:size-[500px]"
+          className="absolute size-[300px] md:size-[500px]"
         >
           <img
             src="/public/profile.png"

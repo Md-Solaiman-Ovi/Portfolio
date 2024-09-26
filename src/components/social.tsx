@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaYoutube, FaFacebook } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedinIn />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/Md-Solaiman-Ovi" },
+  {
+    icon: <FaLinkedinIn />,
+    path: "https://www.linkedin.com/in/md-solaiman-ovi-83a9b4162/",
+  },
   { icon: <FaYoutube />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  { icon: <FaFacebook />, path: "https://www.facebook.com/msovi480" },
 ];
 const Social = () => {
   return (
