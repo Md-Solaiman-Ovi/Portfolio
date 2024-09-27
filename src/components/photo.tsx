@@ -16,12 +16,12 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 0.5, duration: 1, ease: "easeInOut" },
           }}
-          className="absolute size-[300px] md:size-[500px]"
+          className="absolute size-[300px] mix-blend-darken dark:mix-blend-lighten md:size-[500px]"
         >
           <img
-            src="/public/profile.png"
+            src="/public/profile5.png"
             alt=""
-            className="size-full rounded-full fill-current object-contain"
+            className="size-full rounded-full fill-current object-contain pl-[1px] pt-6 mix-blend-lighten shadow-2xl shadow-teal-500 duration-500 hover:shadow-teal-300 hover:transition-all"
             fetchPriority="high"
           />
         </motion.div>

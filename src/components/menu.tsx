@@ -1,17 +1,17 @@
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const links = [
   {
     name: "Home",
-    path: "/",
+    path: "/#section1",
   },
   {
     name: "About",
-    path: "/about",
+    path: "#section2",
   },
   {
     name: "Projects",
-    path: "/projects",
+    path: "#section3",
   },
 ];
 const Menu = () => {
@@ -23,13 +23,13 @@ const Menu = () => {
       {links.map((link, index) => {
         console.log(link.path);
         return (
-          <Link
-            to={link.path}
+          <a
+            href={link.path}
             key={index}
             className={`${link.path == currentPath && "border-b border-teal-400 text-teal-400"} font-bold capitalize transition-all hover:text-teal-400`}
           >
             {link.name}
-          </Link>
+          </a>
         );
       })}
     </nav>

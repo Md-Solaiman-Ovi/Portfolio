@@ -4,7 +4,7 @@ const stats = [
   { num: 2, text: "Years of experience" },
   { num: 12, text: "Projects completed" },
   { num: 8, text: "technologies mastered" },
-  { num: 500, text: "Code commits" },
+  { num: 350, text: "Code commits" },
 ];
 const Stats = () => {
   return (
@@ -24,7 +24,7 @@ const Stats = () => {
                   className="text-4xl font-extrabold text-black dark:text-white xl:text-6xl"
                 />
                 <p
-                  className={`${item.text.length < 15 ? "max-w-[100px]" : "max-w-[150px]"} leading-snug text-black dark:text-white/80`}
+                  className={`${item.text.length < 15 ? "max-w-[100px]" : "max-w-[150px]"} text-sm leading-snug text-black dark:text-white/80 xl:text-base`}
                 >
                   {item.text}
                 </p>
