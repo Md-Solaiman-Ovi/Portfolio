@@ -15,11 +15,11 @@ const Navbar = ({ darkMode, setDarkMode }: DarkModeProps) => {
   };
   return (
     <nav className="transation z-20 flex w-full items-center justify-between px-4 py-4 duration-300 ease-in-out">
-      <Link to="/#section1">
+      <a href="/#section1">
         <h1 className="aclonica-regular text-xl dark:text-white md:text-2xl">
           Portfolio
         </h1>
-      </Link>
+      </a>
       <div className="hidden items-center gap-4 md:flex">
         <Menu />
         <div

@@ -8,11 +8,14 @@ const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [navbarHeight, setNavbarHeight] = useState(0);
 
-  // Set the navbar height dynamically
+  // Set the navbar height dynamically and handle refresh logic
   useEffect(() => {
     const navbar = document.getElementById("navbar");
     if (navbar) {
       setNavbarHeight(navbar.offsetHeight);
+    }
+    if (window.location.pathname === "/") {
+      window.location.replace("/#"); // Set the hash to section1
     }
   }, []);
   return (
