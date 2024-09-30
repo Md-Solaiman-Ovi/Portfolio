@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div
           id="section2"
-          className="mx-auto my-20 flex max-w-7xl flex-col"
+          className="mx-auto my-20 flex max-w-7xl flex-col lg:py-48"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <WhyHireMe />
