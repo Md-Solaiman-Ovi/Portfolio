@@ -1,19 +1,27 @@
+import SkillImg1 from "../assets/skills/html.svg";
+import SkillImg2 from "../assets/skills/css.svg";
+import SkillImg3 from "../assets/skills/js.svg";
+import SkillImg4 from "../assets/skills/react.svg";
+import SkillImg5 from "../assets/skills/next.svg";
+import SkillImg6 from "../assets/skills/tailwind.svg";
+
 const SkillCard = ({ icon, altText }: { icon: string; altText: string }) => (
-  <div className="flex items-center justify-center rounded-lg bg-gray-800 p-8 shadow-md">
+  <div className="flex flex-col items-center justify-center gap-2 rounded-lg bg-gray-800 p-8 shadow-md">
     <img src={icon} alt={altText} className="h-12 w-12" />
+    <p>{altText}</p>
   </div>
 );
 
 const Skills = () => {
   const skills = [
-    { icon: "/src/assets/skills/html.svg", altText: "HTML5" },
-    { icon: "/src/assets/skills/css.svg", altText: "CSS3" },
-    { icon: "/src/assets/skills/js.svg", altText: "JavaScript" },
-    { icon: "/src/assets/skills/react.svg", altText: "React" },
-    { icon: "/src/assets/skills/next.svg", altText: "Next.js" },
-    { icon: "/src/assets/skills/tailwind.svg", altText: "Tailwind CSS" },
-    { icon: "/src/assets/skills/node-icon.svg", altText: "Node.js" },
-    { icon: "/src/assets/skills/figma-icon.svg", altText: "Figma" },
+    { icon: SkillImg1, altText: "HTML5" },
+    { icon: SkillImg2, altText: "CSS3" },
+    { icon: SkillImg3, altText: "JavaScript" },
+    { icon: SkillImg4, altText: "React" },
+    { icon: SkillImg5, altText: "Next.js" },
+    { icon: SkillImg6, altText: "Tailwind CSS" },
+    { icon: SkillImg1, altText: "Node.js" },
+    { icon: SkillImg2, altText: "Figma" },
   ];
 
   return (
