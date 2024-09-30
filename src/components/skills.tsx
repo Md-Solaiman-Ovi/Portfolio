@@ -6,14 +6,14 @@ const SkillCard = ({ icon, altText }: { icon: string; altText: string }) => (
 
 const Skills = () => {
   const skills = [
-    { icon: "../assets/skills/html.svg", altText: "HTML5" },
-    { icon: "../assets/skills/css.svg", altText: "CSS3" },
-    { icon: "../assets/skills/js.svg", altText: "JavaScript" },
-    { icon: "../assets/skills/react.svg", altText: "React" },
-    { icon: "../assets/skills/next.svg", altText: "Next.js" },
-    { icon: "../assets/skills/tailwind.svg", altText: "Tailwind CSS" },
-    { icon: "../assets/skills/node-icon.svg", altText: "Node.js" },
-    { icon: "../assets/skills/figma-icon.svg", altText: "Figma" },
+    { icon: "/src/assets/skills/html.svg", altText: "HTML5" },
+    { icon: "/src/assets/skills/css.svg", altText: "CSS3" },
+    { icon: "/src/assets/skills/js.svg", altText: "JavaScript" },
+    { icon: "/src/assets/skills/react.svg", altText: "React" },
+    { icon: "/src/assets/skills/next.svg", altText: "Next.js" },
+    { icon: "/src/assets/skills/tailwind.svg", altText: "Tailwind CSS" },
+    { icon: "/src/assets/skills/node-icon.svg", altText: "Node.js" },
+    { icon: "/src/assets/skills/figma-icon.svg", altText: "Figma" },
   ];
 
   return (
