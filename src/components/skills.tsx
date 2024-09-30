@@ -6,8 +6,8 @@ import SkillImg5 from "../assets/skills/next.svg";
 import SkillImg6 from "../assets/skills/tailwind.svg";
 
 const SkillCard = ({ icon, altText }: { icon: string; altText: string }) => (
-  <div className="flex flex-col items-center justify-center gap-2 rounded-lg bg-gray-800 p-8 shadow-md">
-    <img src={icon} alt={altText} className="h-12 w-12" />
+  <div className="flex flex-col items-center justify-center gap-2 rounded-lg bg-gray-800 p-8 shadow-md duration-300 ease-in-out hover:bg-teal-500">
+    <img src={icon} alt={altText} className="h-12 w-12 hover:text-teal-500" />
     <p>{altText}</p>
   </div>
 );

@@ -37,7 +37,7 @@ const Home = () => {
         </section>
         <section
           id="section2"
-          className="mx-auto flex h-screen max-w-7xl flex-col"
+          className="mx-auto flex h-screen max-w-7xl flex-col py-20"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <WhyHireMe />
