@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Navbar from "./navbar";
 import HeroSection from "./heroSection";
-import About from "./about";
+
+import WhyHireMe from "./whyHireMe";
 // import ParallaxGalaxy from "./parallaxGalaxy";
 
 const Home = () => {
@@ -39,14 +40,14 @@ const Home = () => {
           className="mx-auto flex h-screen max-w-7xl flex-col"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
-          <About />
+          <WhyHireMe />
         </section>
         <section
           id="section3"
           className="mx-auto flex h-screen max-w-7xl flex-col"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
-          <About />
+          {/* <About /> */}
         </section>
       </div>
     </main>

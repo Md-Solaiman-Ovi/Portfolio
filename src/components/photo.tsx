@@ -19,7 +19,7 @@ const Photo = () => {
           className="absolute size-[300px] mix-blend-darken dark:mix-blend-lighten md:size-[500px]"
         >
           <img
-            src="/public/profile5.png"
+            src={"/src/assets/resume/profile5.png"}
             alt=""
             className="size-full rounded-full fill-current object-contain pl-[1px] pt-6 mix-blend-lighten shadow-2xl shadow-teal-500 duration-500 hover:shadow-teal-300 hover:transition-all"
             fetchPriority="high"
