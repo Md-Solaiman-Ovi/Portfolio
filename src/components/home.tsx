@@ -33,27 +33,27 @@ const Home = () => {
           </div>
         </div>
 
-        <section
+        <div
           id="section1"
-          className="mx-auto flex h-screen max-w-7xl flex-col"
+          className="mx-auto flex max-w-7xl flex-col"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <HeroSection />
-        </section>
-        <section
+        </div>
+        <div
           id="section2"
-          className="mx-auto flex h-screen max-w-7xl flex-col py-20"
+          className="mx-auto my-20 flex max-w-7xl flex-col"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <WhyHireMe />
-        </section>
-        <section
+        </div>
+        <div
           id="section3"
           className="mx-auto flex h-screen max-w-7xl flex-col"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           {/* <About /> */}
-        </section>
+        </div>
       </div>
     </main>
   );

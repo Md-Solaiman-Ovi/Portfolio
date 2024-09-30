@@ -7,7 +7,7 @@ import Resume from "../assets/resume/Md-Solaiman-Ovi-Resume.pdf";
 
 const HeroSection = () => {
   return (
-    <div className="mt-10 flex w-full flex-col px-4">
+    <div className="flex w-full flex-col px-4">
       <div className="flex w-full flex-col items-center justify-between gap-4 md:flex-row md:gap-0 md:pb-24 md:pt-8">
         <div className="text-balck order-2 flex flex-col text-center dark:text-white md:order-none md:gap-0 md:text-start">
           <span className="text-xl">Software Engineer</span>

@@ -31,7 +31,7 @@ const Menu = () => {
   const pathname = useLocation();
 
   return (
-    <nav className="fixed bottom-10 flex max-w-fit items-center justify-between gap-4 rounded-full bg-gray-700/30 px-4 py-1 text-black backdrop-blur-[15px] dark:text-white">
+    <nav className="fixed bottom-4 flex max-w-fit items-center justify-between gap-4 rounded-full bg-gray-700/30 px-4 py-1 text-black backdrop-blur-[15px] dark:text-white md:bottom-10">
       {links.map((link, index) => {
         console.log(link.path);
         console.log(pathname.hash, "===", link.path);

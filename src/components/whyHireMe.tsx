@@ -20,7 +20,7 @@ const WhyHireMe = () => {
             I am a passionate Software Engineer focusing on Frontend Development
             with a strong problem-solving mindset and commitment to excellence.
           </p>
-          <div className="flex items-center gap-4 lg:flex-col lg:space-y-4">
+          <div className="grid grid-cols-2 items-center gap-4 lg:grid-cols-1">
             {options.map((tab) => (
               <button
                 key={tab}
@@ -101,7 +101,7 @@ const WhyHireMe = () => {
           <TabContent isActive={activeTab === "about me"}>
             <h2 className="mb-6 text-4xl font-bold text-teal-500">About Me</h2>
 
-            <p className="bg-slate-400 text-black p-4 rounded-lg dark:text-white/70 dark:bg-gray-800">
+            <p className="rounded-lg bg-slate-400 p-4 text-black dark:bg-gray-800 dark:text-white/70">
               I’m Md Solainman Ovi, a front-end developer with 1.5 years of
               experience specializing in React.js, Next.js, Alpine.js, Tailwind
               CSS, and TypeScript. My journey began at East West University, and
