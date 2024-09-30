@@ -3,6 +3,7 @@ import Social from "./social";
 import Photo from "./photo";
 import Stats from "./stats";
 import { TypeAnimation } from "react-type-animation";
+import Resume from "../assets/resume/Md-Solaiman-Ovi-Resume.pdf";
 
 const HeroSection = () => {
   return (
@@ -37,7 +38,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col items-center gap-8 md:flex-row">
             <a
-              href="/src/assets//resume/Md-Solaiman-Ovi-Resume.pdf"
+              href={Resume}
               download={"Md-Solaiman-Ovi-Resume.pdf"}
               className="flex items-center gap-4 rounded-full border-2 border-teal-500 bg-teal-500 px-8 py-2 uppercase dark:bg-gray-900 dark:text-teal-500"
             >
