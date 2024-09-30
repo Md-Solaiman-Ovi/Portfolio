@@ -1,8 +1,8 @@
 import React from "react";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Menu from "./menu";
-import MobileNav from "./mobileNav";
+
+// import MobileNav from "./mobileNav";
 interface DarkModeProps {
   darkMode: boolean;
   setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
@@ -20,8 +20,7 @@ const Navbar = ({ darkMode, setDarkMode }: DarkModeProps) => {
           Portfolio
         </h1>
       </a>
-      <div className="hidden items-center gap-4 md:flex">
-        <Menu />
+      <div className="flex items-center gap-4 md:flex">
         <div
           className="cursor-pointer rounded-md px-4 py-1 text-2xl text-black dark:text-white"
           onClick={handleDarkMode}
@@ -29,14 +28,14 @@ const Navbar = ({ darkMode, setDarkMode }: DarkModeProps) => {
           <BsMoonStarsFill className="cursor-pointer" />
         </div>
         <Link to="/contact">
-          <button className="rounded-md bg-teal-500 px-4 py-1 text-center text-white">
+          <button className="rounded-md bg-teal-500 px-4 py-1 text-center text-sm text-white lg:text-base">
             Hire Me!
           </button>
         </Link>
       </div>
-      <div className="dark:text-white md:hidden">
+      {/* <div className="dark:text-white md:hidden">
         <MobileNav />
-      </div>
+      </div> */}
     </nav>
   );
 };

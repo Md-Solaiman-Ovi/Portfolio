@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import HeroSection from "./heroSection";
 
 import WhyHireMe from "./whyHireMe";
+import Menu from "./menu";
 // import ParallaxGalaxy from "./parallaxGalaxy";
 
 const Home = () => {
@@ -27,7 +28,11 @@ const Home = () => {
           className="sticky top-0 mx-auto flex max-w-7xl flex-col"
         >
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+          <div className="flex w-full justify-center">
+            <Menu />
+          </div>
         </div>
+
         <section
           id="section1"
           className="mx-auto flex h-screen max-w-7xl flex-col"

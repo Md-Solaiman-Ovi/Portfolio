@@ -40,7 +40,7 @@ const HeroSection = () => {
             <a
               href={Resume}
               download={"Md-Solaiman-Ovi-Resume.pdf"}
-              className="flex items-center gap-4 rounded-full border-2 border-teal-500 bg-teal-500 px-8 py-2 uppercase dark:bg-gray-900 dark:text-teal-500"
+              className="flex items-center gap-4 rounded-full border-2 border-teal-500 bg-teal-500 px-8 py-2 uppercase shadow-md transition-all duration-300 hover:scale-105 hover:shadow-teal-500 dark:bg-gray-900 dark:text-teal-500"
             >
               <span>Download Resume</span>
               <FiDownload className="text-xl" />

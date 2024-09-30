@@ -101,7 +101,7 @@ const WhyHireMe = () => {
           <TabContent isActive={activeTab === "about me"}>
             <h2 className="mb-6 text-4xl font-bold text-teal-500">About Me</h2>
 
-            <p className="text-white/70">
+            <p className="bg-slate-400 text-black p-4 rounded-lg dark:text-white/70 dark:bg-gray-800">
               I’m Md Solainman Ovi, a front-end developer with 1.5 years of
               experience specializing in React.js, Next.js, Alpine.js, Tailwind
               CSS, and TypeScript. My journey began at East West University, and
