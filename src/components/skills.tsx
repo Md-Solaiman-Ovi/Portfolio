@@ -1,5 +1,3 @@
-import React from "react";
-
 const SkillCard = ({ icon, altText }: { icon: string; altText: string }) => (
   <div className="flex items-center justify-center rounded-lg bg-gray-800 p-8 shadow-md">
     <img src={icon} alt={altText} className="h-12 w-12" />
