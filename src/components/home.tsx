@@ -4,6 +4,8 @@ import HeroSection from "./heroSection";
 
 import WhyHireMe from "./whyHireMe";
 import Menu from "./menu";
+
+import Projects from "./projects";
 // import ParallaxGalaxy from "./parallaxGalaxy";
 
 const Home = () => {
@@ -42,17 +44,17 @@ const Home = () => {
         </div>
         <div
           id="section2"
-          className="mx-auto my-20 flex max-w-7xl flex-col lg:py-48"
+          className="mx-auto my-20 flex max-w-7xl flex-col lg:py-28"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <WhyHireMe />
         </div>
         <div
           id="section3"
-          className="mx-auto flex h-screen max-w-7xl flex-col"
+          className="mx-auto my-20 flex max-w-7xl flex-col lg:py-28"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
-          {/* <About /> */}
+          <Projects />
         </div>
       </div>
     </main>

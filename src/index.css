@@ -13,3 +13,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+.bg-color {
+  background-color: rgb(212, 212, 212);
+  background-image: radial-gradient(
+      at 43% 100%,
+      rgb(233, 213, 255) 0,
+      transparent 15%
+    ),
+    radial-gradient(at 64% 25%, rgb(134, 239, 172) 0, transparent 52%),
+    radial-gradient(at 22% 5%, rgb(199, 210, 254) 0, transparent 40%),
+    radial-gradient(at 11% 12%, rgb(30, 41, 59) 0, transparent 6%),
+    radial-gradient(at 87% 58%, rgb(24, 24, 27) 0, transparent 30%),
+    radial-gradient(at 47% 77%, rgb(22, 163, 74) 0, transparent 75%);
+}

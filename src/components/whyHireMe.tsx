@@ -5,8 +5,8 @@ import Skills from "./skills";
 import ExperienceCard from "./experienceCard";
 
 const WhyHireMe = () => {
-  const options = ["Experience", "Education", "Skills", "About me"];
-  const [activeTab, setActiveTab] = useState("experience");
+  const options = ["Skills", "Experience", "Education", "About me"];
+  const [activeTab, setActiveTab] = useState("skills");
 
   return (
     <div className="flex w-full items-center px-4">
@@ -102,7 +102,7 @@ const WhyHireMe = () => {
             <h2 className="mb-6 text-4xl font-bold text-teal-500">About Me</h2>
 
             <p className="rounded-lg bg-slate-400 p-4 text-black dark:bg-gray-800 dark:text-white/70">
-              I’m Md Solainman Ovi, a front-end developer with 1.5 years of
+              I’m Md Solainman Ovi, a front-end developer with almost 2 years of
               experience specializing in React.js, Next.js, Alpine.js, Tailwind
               CSS, and TypeScript. My journey began at East West University, and
               I currently work at AriSaf Tech Ltd, where I create responsive,
