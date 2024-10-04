@@ -71,7 +71,7 @@ const Contact = () => {
       </p>
 
       <div className="flex flex-col justify-center gap-10 lg:flex-row">
-        <div className="flex w-full flex-col gap-4 px-28 text-center text-white lg:w-1/2">
+        <div className="flex w-full flex-col gap-4 px-4 text-center text-white lg:w-1/2 lg:px-28">
           <article className="group flex flex-col items-center justify-center rounded-lg bg-teal-600 p-4 transition-all hover:border-[1px] hover:border-teal-500 hover:bg-transparent hover:text-black dark:hover:text-white">
             <HiOutlineMail className="group-hover:text-teal-500" />
             <h4>Email</h4>

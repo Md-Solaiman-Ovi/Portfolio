@@ -18,7 +18,7 @@ const Card: React.FC<CardProps> = ({
   secondaryUrl,
 }) => {
   return (
-    <div className="duration-50 group relative z-30 box-border h-[600px] rounded-xl bg-gray-800 shadow-lg transition ease-in-out hover:border-[1px] hover:border-teal-400 hover:bg-transparent hover:shadow-xl">
+    <div className="duration-50 group relative box-border h-[600px] rounded-xl bg-gray-800 shadow-lg transition ease-in-out hover:border-[1px] hover:border-teal-400 hover:bg-transparent hover:shadow-xl">
       {/* Image Section */}
       <div className="rouonded-xl p-4">
         <img
