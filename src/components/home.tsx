@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import Navbar from "./navbar";
 import HeroSection from "./heroSection";
-
 import WhyHireMe from "./whyHireMe";
 import Menu from "./menu";
-
 import Projects from "./projects";
+import Contact from "./contact";
 // import ParallaxGalaxy from "./parallaxGalaxy";
 
 const Home = () => {
@@ -36,25 +35,32 @@ const Home = () => {
         </div>
 
         <div
-          id="section1"
+          id="intro"
           className="mx-auto flex max-w-7xl flex-col"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <HeroSection />
         </div>
         <div
-          id="section2"
+          id="why-hire-me"
           className="mx-auto my-20 flex max-w-7xl flex-col lg:py-28"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <WhyHireMe />
         </div>
         <div
-          id="section3"
-          className="mx-auto my-20 flex max-w-7xl flex-col lg:py-28"
+          id="my-projects"
+          className="mx-auto my-20 flex max-w-7xl flex-col lg:py-10"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <Projects />
+        </div>
+        <div
+          id="contact"
+          className="mx-auto my-20 flex max-w-7xl flex-col pb-20"
+          style={{ scrollMarginTop: `${navbarHeight}px` }}
+        >
+          <Contact />
         </div>
       </div>
     </main>

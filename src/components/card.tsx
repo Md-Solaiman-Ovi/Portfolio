@@ -4,6 +4,7 @@ type CardProps = {
   imageSrc: string;
   title: string;
   description: string;
+  tech: string;
   primaryUrl: string;
   secondaryUrl: string;
 };
@@ -12,15 +13,16 @@ const Card: React.FC<CardProps> = ({
   imageSrc,
   title,
   description,
+  tech,
   primaryUrl,
   secondaryUrl,
 }) => {
   return (
-    <div className="box-border rounded-xl bg-gray-800 shadow-lg transition-all duration-300 ease-in-out hover:border-[1px] hover:border-teal-400 hover:bg-transparent hover:shadow-xl">
+    <div className="duration-50 group relative z-30 box-border h-[600px] rounded-xl bg-gray-800 shadow-lg transition ease-in-out hover:border-[1px] hover:border-teal-400 hover:bg-transparent hover:shadow-xl">
       {/* Image Section */}
       <div className="rouonded-xl p-4">
         <img
-          className="object-fit h-48 w-full rounded-xl md:h-56 lg:h-64"
+          className="h-1/2 w-full rounded-xl object-cover md:h-56 lg:h-64"
           src={imageSrc}
           alt="Card"
         />
@@ -33,27 +35,31 @@ const Card: React.FC<CardProps> = ({
           {title}
         </div>
         {/* Description */}
-        <p className="mb-4 text-base text-gray-500 md:text-lg">{description}</p>
+        <p className="mb-4 text-base text-gray-500">{description}</p>
+
+        <div className="absolute bottom-5 flex flex-col">
+          <p className="mb-4 text-xs text-teal-500">{tech}</p>
+          <div className="flex gap-4">
+            <a
+              href={primaryUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whitespace-nowrap rounded bg-teal-600 px-4 py-2 text-center font-bold text-white hover:bg-teal-500"
+            >
+              GitHub
+            </a>
+            <a
+              href={secondaryUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whitespace-nowrap rounded border-[1px] border-teal-500 px-4 py-2 text-center font-bold text-white group-hover:text-black dark:hover:bg-gray-800 dark:group-hover:text-white"
+            >
+              Preview
+            </a>
+          </div>
+        </div>
 
         {/* Button Section */}
-        <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-          <a
-            href={primaryUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="whitespace-nowrap rounded bg-teal-600 px-4 py-2 text-center font-bold text-white hover:bg-teal-500"
-          >
-            GitHub
-          </a>
-          <a
-            href={secondaryUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="whitespace-nowrap rounded border-[1px] border-teal-500 px-4 py-2 text-center font-bold text-white hover:bg-gray-800"
-          >
-            Preview
-          </a>
-        </div>
       </div>
     </div>
   );
