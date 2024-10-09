@@ -41,7 +41,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log("check ", result);
-          alert("Message Sent Successfully!");
+          alert("Message Sent Successfully! Please check your email.");
         },
         (error) => {
           console.log(error.text);
