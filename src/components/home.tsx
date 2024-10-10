@@ -26,7 +26,7 @@ const Home = () => {
       <div className="relative bg-slate-200 transition duration-300 ease-in-out dark:bg-gray-900">
         <div
           id="navbar"
-          className="sticky top-0 mx-auto flex max-w-7xl flex-col"
+          className="sticky top-0 z-50 mx-auto flex max-w-7xl flex-col"
         >
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <div className="flex w-full justify-center">
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <div
           id="contact"
-          className="mx-auto my-20 flex max-w-7xl flex-col pb-20"
+          className="mx-auto mt-20 flex max-w-7xl flex-col pb-20"
           style={{ scrollMarginTop: `${navbarHeight}px` }}
         >
           <Contact />
