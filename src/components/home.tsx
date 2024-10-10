@@ -26,7 +26,7 @@ const Home = () => {
       <div className="relative bg-slate-200 transition duration-300 ease-in-out dark:bg-gray-900">
         <div
           id="navbar"
-          className="sticky top-0 z-50 mx-auto flex max-w-7xl flex-col"
+          className={`sticky top-0 z-50 mx-auto flex max-w-7xl flex-col`}
         >
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <div className="flex w-full justify-center">
