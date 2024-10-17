@@ -12,8 +12,8 @@ const Projects = () => {
       imageSrc: projectImg6,
       title: "Real Estate",
       description:
-        "This card component is fully responsive and adapts to different screen sizes. The buttons link to external pages.",
-      tech: "",
+        "Real estate involves the buying, selling, leasing, and management of properties, including residential, commercial, and industrial spaces. ",
+      tech: "React.js, Bootstrap, Context API",
       primaryUrl:
         "https://github.com/Md-Solaiman-Ovi/real-estate-frontend/tree/dev",
       secondaryUrl: "no preview",
@@ -22,8 +22,8 @@ const Projects = () => {
       imageSrc: projectImg5,
       title: "AriSaf Tech Website",
       description:
-        "This card component is fully responsive and adapts to different screen sizes. The buttons link to external pages.",
-      tech: "",
+        "AriSaf Tech Ltd is a technology company specializing in innovative software solutions, dedicated to delivering high-quality products and services in web and software development.",
+      tech: "Next.js, Tailwind CSS, Redux-toolkit",
       primaryUrl: "https://github.com/AriSafTech/ast-lp-2024/tree/feat/ui",
       secondaryUrl: "no preview",
     },
@@ -32,7 +32,7 @@ const Projects = () => {
       title: "E-commerce",
       description:
         "The eCommerce project is a fully completed application with a polished frontend design, showcasing its features and functionality, although the backend is not yet available for deployment.",
-      tech: "Next.js, Tailwind CSS, Redux-toolkit ",
+      tech: "Next.js, Tailwind CSS ",
       primaryUrl:
         "https://github.com/Md-Solaiman-Ovi/ecommerce-shop/tree/development",
       secondaryUrl: "https://md-solaiman-ovi-commerce-shop.netlify.app/",
