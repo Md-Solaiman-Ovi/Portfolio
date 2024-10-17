@@ -2,10 +2,41 @@ import Card from "./card";
 import projectImg1 from "../assets/projects/projectImg1.png";
 import projectImg2 from "../assets/projects/projectImg2.png";
 import projectImg3 from "../assets/projects/projectImg3.png";
-import projectImg4 from "../assets/projects/projectImg4.png";
+// import projectImg4 from "../assets/projects/projectImg4.png";
+import projectImg5 from "../assets/projects/projectImg5.png";
+import projectImg6 from "../assets/projects/projectImg6.png";
 
 const Projects = () => {
   const projects = [
+    {
+      imageSrc: projectImg6,
+      title: "Real Estate",
+      description:
+        "This card component is fully responsive and adapts to different screen sizes. The buttons link to external pages.",
+      tech: "",
+      primaryUrl:
+        "https://github.com/Md-Solaiman-Ovi/real-estate-frontend/tree/dev",
+      secondaryUrl: "no preview",
+    },
+    {
+      imageSrc: projectImg5,
+      title: "AriSaf Tech Website",
+      description:
+        "This card component is fully responsive and adapts to different screen sizes. The buttons link to external pages.",
+      tech: "",
+      primaryUrl: "https://github.com/AriSafTech/ast-lp-2024/tree/feat/ui",
+      secondaryUrl: "no preview",
+    },
+    {
+      imageSrc: projectImg3,
+      title: "E-commerce",
+      description:
+        "The eCommerce project is a fully completed application with a polished frontend design, showcasing its features and functionality, although the backend is not yet available for deployment.",
+      tech: "Next.js, Tailwind CSS, Redux-toolkit ",
+      primaryUrl:
+        "https://github.com/Md-Solaiman-Ovi/ecommerce-shop/tree/development",
+      secondaryUrl: "https://md-solaiman-ovi-commerce-shop.netlify.app/",
+    },
     {
       imageSrc: projectImg1,
       title: "Electron",
@@ -25,25 +56,6 @@ const Projects = () => {
       primaryUrl:
         "https://github.com/Md-Solaiman-Ovi/assignment-junior-frontend-developer",
       secondaryUrl: "https://digi-koein-jrfintel.netlify.app/",
-    },
-    {
-      imageSrc: projectImg3,
-      title: "E-commerce",
-      description:
-        "The eCommerce project is a fully completed application with a polished frontend design, showcasing its features and functionality, although the backend is not yet available for deployment.",
-      tech: "Next.js, Tailwind CSS, Redux-toolkit ",
-      primaryUrl:
-        "https://github.com/Md-Solaiman-Ovi/ecommerce-shop/tree/development",
-      secondaryUrl: "https://md-solaiman-ovi-commerce-shop.netlify.app/",
-    },
-    {
-      imageSrc: projectImg4,
-      title: "Demo Card",
-      description:
-        "This card component is fully responsive and adapts to different screen sizes. The buttons link to external pages.",
-      tech: "",
-      primaryUrl: "https://www.example.com/primary",
-      secondaryUrl: "https://www.example.com/secondary",
     },
   ];
   return (
